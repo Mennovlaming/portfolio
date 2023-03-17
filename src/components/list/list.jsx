@@ -7,7 +7,7 @@ const users = data.users;
 
 return(
     <>
-     <label>
+     <label className="toggle">
         {/* list icon */}
         <div></div>
         <div></div>

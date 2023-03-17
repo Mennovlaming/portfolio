@@ -1,0 +1,15 @@
+section h1 {
+    text-transform: capitalize;
+    color: white;
+}
+section p{
+    color: white;
+}
+
+section {
+    min-width: 40%;
+    max-width: 80%;
+    background-color: #646cff;
+    padding: 2em;
+}
+

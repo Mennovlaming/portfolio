@@ -1,3 +1,6 @@
+* {
+    --dev-blue: #636cff
+}
 .list-ul {
     display: flex;
     flex-direction: column;
@@ -9,7 +12,8 @@
 .list-li {
     list-style-type: none;
     padding: 10px;
-    background-color: rgb(40, 192, 98);
+    background-color: var(--dev-blue);
+    /* background-color: rgb(40, 192, 98); */
     transition: .5s;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.28);
 }
@@ -19,7 +23,9 @@
     text-transform: capitalize;
 
 }
-
+.list-li p {
+    color: white;
+}
 input[type=checkbox]{
 	height: 0;
 	width: 0;
@@ -123,7 +129,6 @@ body:has(.checkbox:checked) .list-ul {
 body:has(.checkbox:checked) .list-li {
     width: 200px;
     height: 200px;
-    background-color: deepskyblue;
     /* fancy inside shadow */
     
 }
