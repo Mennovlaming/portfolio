@@ -12,14 +12,14 @@ import WorkDetails from './pages/WorkDetails'
 function App() {
   
 const [users, setUsers] = useState([])
-//de gefetchte data staat in 'users'
+//the fetched data is now in the StateHook as 'users'
 
 
 const fetchData = () => {
   fetch('https://api.github.com/users/Mennovlaming/repos')
   .then(response => response.json())
   .then(data => {
-      //zet de data in 'users' dmv setUsers
+      //put the fetched data(data) in 'users' with setUsers
       setUsers(data)
     console.log(data) 
 })
@@ -38,13 +38,13 @@ useEffect(() => {
         <NavLink to='/'>Home</NavLink>
         <NavLink to='about'>About</NavLink>
         <NavLink to='work'>Work</NavLink>
-        {/* <NavLink to='detail'>Detail</NavLink> */}
+        {/* this functions as a navbar */}
       </nav>
     </header>
       <main>
         <Routes>
          
-          {/* de gefetchte data in 'users' moet worden doorgegeven aan het home component */}
+          {/* the fetched data statehook(users) must be given to other components, with props you pass it 'users={users}'*/}
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="work" element={<Work users={users}/>} />
