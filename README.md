@@ -31,6 +31,6 @@ content on the same page, on this way your React project will stay a single page
 ### Code
 To see explanation about the code, see the files in de 'src' folder, I made a lot of comments of the stuff I learned
 
-##disclaimer
+## disclaimer
 the result is not the final product yet, but this was the best I could do in a small week of time.
 
