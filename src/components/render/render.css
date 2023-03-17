@@ -8,9 +8,7 @@
     gap: 10px;
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
-    width: 300px;
-    
-    
+    width: 26em;
 }
 h2 {
     color: white;
@@ -19,7 +17,7 @@ h2 {
     padding: 20px;
     list-style-type: none;
     background-color: var(--dev-blue);
-    min-width: 14rem;
+    min-width: 20em;
     height: 180px;
     scroll-snap-align: start;
     box-shadow: 
