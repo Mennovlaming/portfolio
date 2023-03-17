@@ -1,5 +1,5 @@
 import React from "react"
-import {useParams} from "react-router-dom"
+import {useParams, Link} from "react-router-dom"
 import "./styles.css"
 
 function WorkDetails(data) {
@@ -14,6 +14,9 @@ function WorkDetails(data) {
         <section>
                 <h1>{thisUser.name}</h1>  
                 <p>{thisUser.description}</p>
+                {/* <a href="{thisUser.link}"></a> */}
+                <Link to={thisUser.svn_url}>{thisUser.svn_url}</Link>
+                <p></p>
         </section>
     );
 }

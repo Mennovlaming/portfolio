@@ -11,5 +11,18 @@ section {
     max-width: 80%;
     background-color: #646cff;
     padding: 2em;
+
+    box-shadow: 
+    inset 2px 3px 2px 1px rgba(0, 0, 0, 0.36);
 }
 
+.about {
+    width: 22em;
+}
+.home {
+    width: 15em;
+}
+main {
+    display: flex;
+    gap: 10px;
+}

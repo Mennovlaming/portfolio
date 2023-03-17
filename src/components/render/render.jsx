@@ -18,7 +18,10 @@ return (
                     // de unieke key is nu de index, dus de li items zijn 1, 2, 3, enz.
                      <li key={index} className='carousel-list'>
                        
-                            <h2>{user.name}</h2>
+                       <h2>{user.name}</h2>
+                            <p>{user.description}</p>
+                            {/* with this link you get a dynamic page with the user.id as atribute */}
+                            {/* <Link to={`/work/${user.id}`}>More</Link> */}
                      </li>
                 ))} 
             </ul>

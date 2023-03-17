@@ -11,11 +11,13 @@
 
 .list-li {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     background-color: var(--dev-blue);
     /* background-color: rgb(40, 192, 98); */
     transition: .5s;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.28);
+    box-shadow: 
+    inset 2px 3px 2px 1px rgba(0, 0, 0, 0.36);
 }
 
 .list-li h2 {
@@ -123,7 +125,7 @@ label:has(input:checked) {
 body:has(.checkbox:checked) .list-ul {
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 450px;
+    max-width: 500px;
 }
 
 body:has(.checkbox:checked) .list-li {
