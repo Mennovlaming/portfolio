@@ -34,7 +34,7 @@ input[type=checkbox]{
 	appearance: none;
 }
 
-label {
+.toggle {
 	cursor: pointer;
 	width: 180px;
 	height: 70px;
@@ -47,7 +47,7 @@ label {
 
     margin: 2em 0;
 }
-label:before {
+.toggle:before {
     width: 80px;
     content: "";
     height: 60px;
@@ -63,62 +63,62 @@ label:before {
     transition: .5s;
 }
 /* list */
-label div:first-of-type {
+.toggle div:first-of-type {
     top: 27.5%;
 }
-label div:nth-of-type(2){
+.toggle div:nth-of-type(2){
     top: 45%;
 }
-label div:nth-of-type(3){
+.toggle div:nth-of-type(3){
     top: 62.5%;
 }
 
 /* kolommen */
-label div:nth-of-type(4){
+.toggle div:nth-of-type(4){
     top: 25%;
     right: 19%;
 }
-label div:nth-of-type(5){
+.toggle div:nth-of-type(5){
     top: 50%;
     right: 19%;
 }
-label div:nth-of-type(6){
+.toggle div:nth-of-type(6){
     top: 50%;
     right: 29%;
 }
-label div:nth-of-type(7){
+.toggle div:nth-of-type(7){
     top: 25%;
     right: 29%;
 }
-label div {
+.toggle div {
     background-color: rgb(80, 80, 80);
 }
-label div:nth-of-type(4),
-label div:nth-of-type(5),
-label div:nth-of-type(6),
-label div:nth-of-type(7) {
+.toggle div:nth-of-type(4),
+.toggle div:nth-of-type(5),
+.toggle div:nth-of-type(6),
+.toggle div:nth-of-type(7) {
     /* display: none; */
     width: 15px;
     height: 15px;
     position: absolute;
 }
-label div:first-of-type,
-label div:nth-of-type(2),
-label div:nth-of-type(3) {
+.toggle div:first-of-type,
+.toggle div:nth-of-type(2),
+.toggle div:nth-of-type(3) {
     left: 20%;
     width: 32px;
     height: 5px;
     position: absolute;
 
 }
-label:has(input:checked)::before {
+.toggle:has(input:checked)::before {
     transform: translateX(90px);
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
 }
-label:has(input:checked) {
+.toggle:has(input:checked) {
     background-color: #b7b7b7;
 }
 
