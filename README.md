@@ -29,6 +29,8 @@ Next thing I learned was about React Router, React uses React Router to navigate
 content on the same page, on this way your React project will stay a single page application while it functions like a multiple page application.
 
 ### Code
+To see explanation about the code, see the files in de 'src' folder, I made a lot of comments of the stuff I learned
 
+##disclaimer
 the result is not the final product yet, but this was the best I could do in a small week of time.
 
