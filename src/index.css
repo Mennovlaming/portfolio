@@ -69,23 +69,23 @@ button:focus-visible {
   section h1 {
     text-transform: capitalize;
     color: black;
-}
-  section p{
+  }
+  section p {
     color: black;
-}
-.list-li h2 {
-  color: black;
-  text-transform: capitalize;
-}
-.list-li p {
-  color: black;
-}
-h2 {
-  color: black
-}
-.carousel-list{
- 
+  }
+  .list-li h2 {
+    color: black;
+    text-transform: capitalize;
+  }
+  .list-li p {
+    color: black;
+  }
+  h2 {
+    color: black
+  } 
+  .carousel-list{
   background-color: var(--dev-blue-light);
-}
+  }
+
 
 }

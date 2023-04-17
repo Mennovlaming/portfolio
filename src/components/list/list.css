@@ -6,10 +6,10 @@
     flex-direction: column;
     gap: 10px;
     max-width: 500px;
-
 }
 
 .list-li {
+    width: 24em;
     list-style-type: none;
     padding: 20px;
     background-color: var(--dev-blue);
@@ -44,7 +44,6 @@ input[type=checkbox]{
 	position: relative;
     box-shadow: 
     inset 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-
     margin: 2em 0;
 }
 .toggle:before {
