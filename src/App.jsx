@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
-import './App.css'
-import Render from "./components/render/render";
-import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom'
+import './App.css';
+import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
 
 //pages
-import Home from './pages/home'
-import About from './pages/About'
-import Work from './pages/Work'
-import Contact from './pages/Contact'
-import WorkDetails from './pages/WorkDetails'
+import Home from './pages/home';
+import About from './pages/About';
+import Work from './pages/Work';
+import Contact from './pages/Contact';
+import WorkDetails from './pages/WorkDetails';
 
 function App() {
   
@@ -55,7 +54,7 @@ useEffect(() => {
         </Routes>
       </main> 
     </BrowserRouter>
-  )
+  );
 }
 
 export default App
